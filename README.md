@@ -1,5 +1,6 @@
-# FitnessApp
 # Agile Software Project
+
+Fitness Application - Everyday Fitness App
 
 This project is done by a team of 3, Calvin, Khidhir and I. 
 
