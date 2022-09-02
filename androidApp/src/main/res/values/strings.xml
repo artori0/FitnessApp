@@ -1,0 +1,84 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Everyday Fitness</string>
+
+    <string name="title_activity_workouts">Workouts</string>
+    <string name="title_activity_timer">Timer</string>
+    <string name="title_activity_calorie">Calorie Counter</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_steps">Step Counter</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="app_icon">App Icon</string>
+
+    <string name="workouts_arms">Arms</string>
+    <string name="workouts_legs">Legs</string>
+    <string name="workouts_back">Back</string>
+    <string name="workouts_abs">Abs</string>
+    <string name="workouts_shoulder">Shoulder</string>
+    <string name="workouts_body">Full Body</string>
+
+    <!--settings strings-->
+    <string name="action_settings">Settings</string>
+
+    <string name="feedback_text">Your feedback is important to us!</string>
+    <string name="feedback_submit">Submit</string>
+
+    <string name="place_holder_time">00:00:00</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="stop">Start</string>
+
+    <!--terms and conditions strings-->
+    <string name="terms">Terms Of Use</string>
+    <string name="terms1">PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING THIS APPLICATION. By using this application on any computer, mobile phone, tablet, console or other device (collectively, “Device”),you signify that you have read, understand and agree to be bound by these Terms of Use and any other applicable law. Everyday Fitness Application, LLC (“Everyday Fitness”) may change these Terms of Use at any time without notice, effective upon its posting to the App. Your continued use of the Application shall be considered your acceptance to the revised Terms of Use. If you do not agree to these Terms of Use, please do not use this Application.</string>
+    <string name="notice">Physical Activity Notice</string>
+    <string name="terms2">The Application may include features that promote physical activity. Consider the risks involved and consult with your medical professional before engaging in any physical activity. EverydayFitness is not responsible or liable for any injuries or damages you may sustain that result from your use of, or inability to use, the features of the App.</string>
+    <string name="IP">Intellectual Property</string>
+    <string name="terms3">All intellectual property on the App is owned by EverydayFitness or its licensors, which includes materials protected by copyright, trademark, or patent laws. All trademarks, service marks and trade names are owned, registered and/or licensed by DAILY WORKOUT. All content on the App (except for Personal Information), including but not limited to text, software, scripts, code, designs, graphics, photos, sounds, music, videos, applications, interactive features and all other content (“Content”) is a collective work under the Singapore and other copyright laws and is the proprietary property of EverydayFitness; All rights reserved.</string>
+    <string name="restrictions">Application Use Restrictions</string>
+    <string name="terms4">You may use the Content only for your own non-commercial use to use the App. You agree not to change or delete any ownership notices from materials downloaded or printed from the App. You agree not to modify, copy, translate, broadcast, perform, display, distribute, frame, reproduce, republish, download, display, post, transmit or sell any Intellectual Property or Content appearing on the App, including Personal Information (defined below), without EverydayFitness’s prior written consent, unless it is your own Personal Information that you legally post on the App. You agree not to use any data mining, robots, scraping or similar data gathering methods. Nothing in these Terms of Use shall be interpreted as granting any license of intellectual property rights to you.</string>
+    <string name="personalInfo">Personal Information</string>
+    <string name="terms5">To use the Application, you may be asked to provide certain personal information (the “Personal Information”), including information about your weight, age and gender, to optimize your use of the App. If you choose to provide such Personal Information, you agree to provide accurate and current information about yourself, and EverydayFitness will not be responsible for any injury related to any Personal Information you submit to the App or omit. The use or disclosure of any Personal Information you supply will be governed by our Privacy Policy.</string>
+    <string name="links">Links</string>
+    <string name="terms6">The Application may contain links to websites, applications or other products or services operated by other companies (“Third Party Platforms”). EverydayFitness does not endorse, monitor or have any control over these Third Party Platforms, which have separate terms of use and privacy policies. EverydayFitness is not responsible for the content or policies of Third Party Platforms and you access such Third Party Platforms at your own risk.</string>
+    <string name="services">Mobile Services</string>
+    <string name="terms7">The App contains services and features that are available to certain mobile Devices. Your carrier’s normal rates and fees apply. Not all mobile services will work with all carriers or Devices. By using EverydayFitness’s mobile services, you agree that we may communicate with you by electronic means to your mobile Device and that certain information about your use of these services may be shared with us. If you change or deactivate your mobile phone number, you must promptly update your account information to ensure that we don’t send your messages to a different person.</string>
+    <string name="indemnification">Indemnification</string>
+    <string name="terms8">You agree to indemnify, defend, and hold harmless EverydayFitness APPS, LLC, its affiliates, officers, directors, employees, agents, licensors and suppliers from and against all claims, losses, liabilities, expenses, damages and costs, including, without limitation, attorneys’ fees, arising from or relating in any way to your Personal Information, your use of the App, your conduct in connection with the App or with other App users, or any violation of these Terms of Use, any law or the rights of any third party.</string>
+    <string name="privacy">Privacy</string>
+    <string name="terms9">Our Privacy Policy, which is incorporated into these Terms of Use by this reference, further describes the collection and use of information on this Application.</string>
+    <string name="disclaimer">User Interaction Disclaimer</string>
+    <string name="terms10">"You are solely responsible for your interactions with other people, whether online or in person. EverydayFitness is not responsible or liable for any loss or damage resulting from any interaction with other App users, persons you meet through the App, or persons who find you because of information posted on, by or through the App. You agree to take reasonable precautions in all interactions with other users on the App, and conduct any necessary investigation before meeting another person. EverydayFitness is under no obligation to become involved with any user dispute, but may do so at its own discretion.</string>
+    <string name="misc">Miscellaneous</string>
+    <string name="terms11">You agree that this App shall be deemed a passive website solely based in Singapore, which does not give rise to personal jurisdiction over EverydayFitness in jurisdictions other than Minnesota. You agree that this App, Terms of Use, Privacy Policy and any dispute between you and EverydayFitness shall be governed in all respects by Singapore law, without regard to choice of law provisions. Except where prohibited, you agree that all disputes, claims and legal proceedings directly or indirectly arising out of or relating to this App (including but not limited to the purchase of EverydayFitness products) shall be resolved individually, without resort to any form of class action. Any cause of action or claim you may have with respect to the App (including but not limited to the purchase of EverydayFitness products) must be commenced within one (1) year after the claim or cause of action arises. By using the App, you agree to receive certain electronic communications from EverydayFitness. You agree that any notice, agreement, disclosure or other communication that EverydayFitness sends you electronically will satisfy any legal communication requirements, including that such communications be in writing. EverydayFitness’s failure to insist upon or enforce strict performance of any of these Terms of Use shall not be considered a waiver of any provision or right. Neither the course of conduct between the parties nor trade practice shall modify any of these Terms of Use. EverydayFitness may assign its rights and duties under these Terms of Use to any party at any time without notice to you.</string>
+    <string name="termination">Termination</string>
+    <string name="terms12">EverydayFitness reserves the right in its sole discretion to terminate your account, delete your profile and any of your Personal Information, and restrict your use of all or any part of the App for any or no reason, without notice, and without liability to you or anyone else. EverydayFitness also reserves the right to block users from certain IP addresses or Device numbers and prevent access to the App. These Terms of Use remain in effect even after your account is terminated. The Terms of Use relating to Intellectual Property, Indemnification, User Interaction Disclaimer, Warranty Disclaimer, Limitation of Liability, Miscellaneous, Severability and terms that by their nature may survive termination shall survive any termination.</string>
+    <string name="change_email">Change Email</string>
+    <string name="current_email">Current Email</string>
+    <string name="new_email">New Email</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="email">Email</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="feedback_typeFeedback">Type your feedback here</string>
+    <string name="feedback">Feedback</string>
+
+    <string name="workouts_rest" tools:ignore="TypographyDashes">*Rest between each set for 2-3 minutes</string>
+
+    <string name="arms_workout">Arms Workouts</string>
+    <string name="ArmsWorkoutInstructions">Standing Barbell Biceps Curl: 4 sets, 10 reps (Double dropset after the final set.) \n\n Standing Alternating Biceps Curl: 4 sets, 12 reps (Single dropset after the final set.) \n\nEZ-Bar Preacher Curl: 4 sets, 12 reps (Pause at the top of each rep for 2 sec.) \n\nIncline Biceps Curl: 4 sets, 12 reps (Double dropset after the final set.) \n\nHammer Curl: 4 sets, 10 reps \n\nHigh Cable Curl: 6 sets, 15 reps</string>
+    <string name="shoulders_workout">Shoulders Workouts</string>
+    <string name="ShouldersWorkoutInstructions" tools:ignore="TypographyDashes">Dumbbell Shoulder Press \n3 sets 6-8 reps \n1 drop set to failure \n\nSide Lateral Raise \n3 sets 6-8 reps \n\nFront Raise \n3 sets 6-8 reps \n\nReverse Machine Fly \n3 sets 8-10 reps \n\nFront Plate Raise \n3 sets 8-10 reps \n\nSide Lateral Raise \n3 sets 8-10 reps \n\nFront Dumbbell Raise \n3 sets 8-10 reps \n\nBent Over Rear Delt Raise \n3 sets 8-10 reps \n\nSeated Dumbbell Press \n4 set 12/10/10/8 - last set 6 triple drop set \n\nSeated Barbell Military Press \n4 sets 10 reps \n\nSeated Side Lateral Raise \n4 sets 12 reps (20s isometric hold dropset) \n\nStanding Barbell Press Behind Neck \n5 sets 8-10 reps \n\nDumbbell Side Lateral Raise \n4 sets 12 reps \n\nUpright Rows \n4 sets 12 reps \n\nBarbell Front Raise \n4 sets 10 reps (drop sets) \n\nIncline Bench Reverse Fly \n4 sets 12 reps \n\nSmith Machine Shrugs \n6 sets 12 reps - 3 sets front 3 sets back \n\nSeated Cable Shoulder Press \n4 sets 24 reps (drop sets) \n\nStanding Low Pulley Deltoid Raise \n4 sets 12-15 reps (drop sets) \n\nCable Rear Delt fly \n4 sets 12-15 reps (triple drop set) \n\nFront Dumbbell Raise \n4 sets 10 reps (dropsets) \n\nSide Lateral Raise \n4 sets 10 reps (dropsets) \n\nDumbbell Lying Rear Lateral Raise \n4 sets 10 reps (dropsets)</string>
+    <string name="abs_workout">Abs Workout</string>
+    <string name="AbsWorkoutInstructions">Leg raise 1 min \nRest 30 sec \n\nCrunches 1 min \nRest 30 sec \n\nSide Plank each 30 sec \nTotal: 1 min \nRest 30 sec \n\nHeel Tap 1 min \nRest 30 sec \n\nRussian twist 1 min \nRest 30 sec \n\nBicycle Crunch 1 min \nRest 30 sec \n\nPlank 1 min</string>
+    <string name="body_workout">Body Workouts</string>
+
+    <string name="back_workout">Back Workouts</string>
+    <string name="BackWorkoutInstructions" tools:ignore="TypographyDashes">Bent over Barbell Row \n5 sets 12,10,8,6,4 \n\nDumbbell Row \n6 sets 12 reps \n3 normal, 3 swinging \n\nReverse Grip Lat Pulldown \n4 sets 10-12 reps \n\nClose Grip Cable Row \n4 sets 10-12 reps \n\nIncline Bench Dumbbell Row \n3 sets 8-12 reps</string>
+    <string name="legs_workout">Legs Workouts</string>
+    <string name="LegsWorkoutInstructions" tools:ignore="TypographyDashes">Back Squats OR Front Squats \n3-4 sets of 6-10 reps \n\nHip Thrusts \n3-4 sets of 12-15 reps \n\nSplit Squats (2 sets Bulgarian, 2 sets contralateral) \n4 sets of 8-12 reps (each side) \n\nGlute Ham Raise (or Bosu Ball alternative) \n3-4 sets of 10-15 reps \n\nStanding Single Leg Calf Raise \n2-4 sets of 6-10 reps \n\nSeated Calf Raise \n2-4 sets of 10-15 reps</string>
+    <string name="BodyWorkoutInstructions">Barbell Bench Press \n3 sets of 8-10 reps \n\nBarbell Back Squat \n3 sets of 8-10 reps \n\nPull-Ups \n3 sets of 6-10 reps \n\nLying Hamstring Dumbbell Curls \n3 sets of 10-15 reps \n\nStanding Overhead Press \n3 sets of 6-10 reps \n\nFacepulls \n2 sets of 10-15 reps</string>
+
+</resources>

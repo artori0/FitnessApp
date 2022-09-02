@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".workoutLegs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/appIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="108dp"
+                android:layout_marginTop="32dp"
+                android:clickable="true"
+                android:contentDescription="@string/app_name"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/app_icon" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/WorkoutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:textColor="@color/colorText"
+            android:paddingStart="10dp"
+            android:paddingBottom="5dp"
+            android:text="@string/legs_workout"
+            app:layout_constraintTop_toBottomOf="@+id/appIcon"
+            tools:ignore="RtlSymmetry" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/WorkoutTitle"
+            android:paddingBottom="10sp">
+            <VideoView
+                android:id="@+id/Video"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/WorkoutRest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingHorizontal="15dp"
+            android:text="@string/workouts_rest"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@+id/WorkoutTitle"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/WorkoutDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:text="@string/LegsWorkoutInstructions"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/WorkoutRest"
+            android:paddingBottom="10dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>
