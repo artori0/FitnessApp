@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".squats"
+            android:exported="false" />
+        <activity
+            android:name=".benchpress"
+            android:exported="false" />
+        <activity
             android:name=".workoutAbs"
             android:exported="false" />
         <activity
@@ -40,9 +46,6 @@
             android:exported="false" />
         <activity
             android:name=".feedback"
-            android:exported="false" />
-        <activity
-            android:name=".Feedback"
             android:exported="false" />
         <activity
             android:name=".calorieCounter"

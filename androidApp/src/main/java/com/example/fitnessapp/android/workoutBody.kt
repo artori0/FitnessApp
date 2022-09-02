@@ -23,7 +23,7 @@ class workoutBody : AppCompatActivity() {
         val mediaController = MediaController(this)
         mediaController.setAnchorView(video)
         val uri: Uri =
-            Uri.parse("android.resource://com.example.fitnessapp.android/" + R.raw.fullbodyworkout)
+            Uri.parse("android.resource://com.example.fitnessapp.android/" + R.raw.benchpress)
         video.setMediaController(mediaController)
         video.setVideoURI(uri)
 

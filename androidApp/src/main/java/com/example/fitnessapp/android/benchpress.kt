@@ -1,23 +1,15 @@
 package com.example.fitnessapp.android
 
-import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ImageView
 import android.widget.MediaController
 import android.widget.VideoView
 
-class workoutShoulders : AppCompatActivity() {
+class benchpress : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_workout_shoulders)
-
-        val home = findViewById<ImageView>(R.id.appIcon)
-        home.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.activity_benchpress)
 
         val video = findViewById<VideoView>(R.id.Video)
         val mediaController = MediaController(this)

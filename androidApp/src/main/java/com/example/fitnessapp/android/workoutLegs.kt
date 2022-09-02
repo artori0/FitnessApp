@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.MediaController
+import android.widget.TextView
 import android.widget.VideoView
 
 class workoutLegs : AppCompatActivity() {
@@ -19,17 +20,10 @@ class workoutLegs : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val video = findViewById<VideoView>(R.id.Video)
-        val mediaController = MediaController(this)
-        mediaController.setAnchorView(video)
-        val uri: Uri =
-            Uri.parse("android.resource://com.example.fitnessapp.android/" + R.raw.benchpress)
-        video.setMediaController(mediaController)
-        video.setVideoURI(uri)
-
-        video.setOnClickListener {
-            video.requestFocus()
-            video.start()
+        val squats = findViewById<TextView>(R.id.WorkoutDescription1)
+        squats.setOnClickListener {
+            val intent = Intent(this, com.example.fitnessapp.android.benchpress::class.java)
+            startActivity(intent)
         }
     }
 }

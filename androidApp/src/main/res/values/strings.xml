@@ -69,16 +69,27 @@
 
     <string name="arms_workout">Arms Workouts</string>
     <string name="ArmsWorkoutInstructions">Standing Barbell Biceps Curl: 4 sets, 10 reps (Double dropset after the final set.) \n\n Standing Alternating Biceps Curl: 4 sets, 12 reps (Single dropset after the final set.) \n\nEZ-Bar Preacher Curl: 4 sets, 12 reps (Pause at the top of each rep for 2 sec.) \n\nIncline Biceps Curl: 4 sets, 12 reps (Double dropset after the final set.) \n\nHammer Curl: 4 sets, 10 reps \n\nHigh Cable Curl: 6 sets, 15 reps</string>
+
+
     <string name="shoulders_workout">Shoulders Workouts</string>
     <string name="ShouldersWorkoutInstructions" tools:ignore="TypographyDashes">Dumbbell Shoulder Press \n3 sets 6-8 reps \n1 drop set to failure \n\nSide Lateral Raise \n3 sets 6-8 reps \n\nFront Raise \n3 sets 6-8 reps \n\nReverse Machine Fly \n3 sets 8-10 reps \n\nFront Plate Raise \n3 sets 8-10 reps \n\nSide Lateral Raise \n3 sets 8-10 reps \n\nFront Dumbbell Raise \n3 sets 8-10 reps \n\nBent Over Rear Delt Raise \n3 sets 8-10 reps \n\nSeated Dumbbell Press \n4 set 12/10/10/8 - last set 6 triple drop set \n\nSeated Barbell Military Press \n4 sets 10 reps \n\nSeated Side Lateral Raise \n4 sets 12 reps (20s isometric hold dropset) \n\nStanding Barbell Press Behind Neck \n5 sets 8-10 reps \n\nDumbbell Side Lateral Raise \n4 sets 12 reps \n\nUpright Rows \n4 sets 12 reps \n\nBarbell Front Raise \n4 sets 10 reps (drop sets) \n\nIncline Bench Reverse Fly \n4 sets 12 reps \n\nSmith Machine Shrugs \n6 sets 12 reps - 3 sets front 3 sets back \n\nSeated Cable Shoulder Press \n4 sets 24 reps (drop sets) \n\nStanding Low Pulley Deltoid Raise \n4 sets 12-15 reps (drop sets) \n\nCable Rear Delt fly \n4 sets 12-15 reps (triple drop set) \n\nFront Dumbbell Raise \n4 sets 10 reps (dropsets) \n\nSide Lateral Raise \n4 sets 10 reps (dropsets) \n\nDumbbell Lying Rear Lateral Raise \n4 sets 10 reps (dropsets)</string>
+
+
     <string name="abs_workout">Abs Workout</string>
     <string name="AbsWorkoutInstructions">Leg raise 1 min \nRest 30 sec \n\nCrunches 1 min \nRest 30 sec \n\nSide Plank each 30 sec \nTotal: 1 min \nRest 30 sec \n\nHeel Tap 1 min \nRest 30 sec \n\nRussian twist 1 min \nRest 30 sec \n\nBicycle Crunch 1 min \nRest 30 sec \n\nPlank 1 min</string>
+
     <string name="body_workout">Body Workouts</string>
+    <string name="BodyWorkoutInstructions" tools:ignore="TypographyDashes">Barbell Bench Press \n3 sets of 8-10 reps \n\nBarbell Back Squat \n3 sets of 8-10 reps \n\nPull-Ups \n3 sets of 6-10 reps \n\nLying Hamstring Dumbbell Curls \n3 sets of 10-15 reps \n\nStanding Overhead Press \n3 sets of 6-10 reps \n\nFacepulls \n2 sets of 10-15 reps</string>
 
     <string name="back_workout">Back Workouts</string>
     <string name="BackWorkoutInstructions" tools:ignore="TypographyDashes">Bent over Barbell Row \n5 sets 12,10,8,6,4 \n\nDumbbell Row \n6 sets 12 reps \n3 normal, 3 swinging \n\nReverse Grip Lat Pulldown \n4 sets 10-12 reps \n\nClose Grip Cable Row \n4 sets 10-12 reps \n\nIncline Bench Dumbbell Row \n3 sets 8-12 reps</string>
+
+
     <string name="legs_workout">Legs Workouts</string>
-    <string name="LegsWorkoutInstructions" tools:ignore="TypographyDashes">Back Squats OR Front Squats \n3-4 sets of 6-10 reps \n\nHip Thrusts \n3-4 sets of 12-15 reps \n\nSplit Squats (2 sets Bulgarian, 2 sets contralateral) \n4 sets of 8-12 reps (each side) \n\nGlute Ham Raise (or Bosu Ball alternative) \n3-4 sets of 10-15 reps \n\nStanding Single Leg Calf Raise \n2-4 sets of 6-10 reps \n\nSeated Calf Raise \n2-4 sets of 10-15 reps</string>
-    <string name="BodyWorkoutInstructions">Barbell Bench Press \n3 sets of 8-10 reps \n\nBarbell Back Squat \n3 sets of 8-10 reps \n\nPull-Ups \n3 sets of 6-10 reps \n\nLying Hamstring Dumbbell Curls \n3 sets of 10-15 reps \n\nStanding Overhead Press \n3 sets of 6-10 reps \n\nFacepulls \n2 sets of 10-15 reps</string>
+    <string name="LegsWorkoutInstructions1" tools:ignore="TypographyDashes">Back Squats OR Front Squats \n3-4 sets of 6-10 reps</string>
+    <string name="LegsWorkoutInstructions2" tools:ignore="TypographyDashes">Hip Thrusts \n3-4 sets of 12-15 reps</string>
+    <string name="LegsWorkoutInstructions3" tools:ignore="TypographyDashes">Bulgarian Split Squats \n4 sets of 8-12 reps (each side)</string>
+    <string name="LegsWorkoutInstructions4" tools:ignore="TypographyDashes">Standing Single Leg Calf Raise \n2-4 sets of 6-10 reps</string>
+    <string name="LegsWorkoutInstructions5" tools:ignore="TypographyDashes">Seated Calf Raise \n2-4 sets of 10-15 reps</string>
 
 </resources>
