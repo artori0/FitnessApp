@@ -11,23 +11,30 @@
     <string name="app_icon">App Icon</string>
 
     <string name="welcome">Welcome to Everyday Fitness</string>
-    <string name="started_sub_title">
-        <b>Login</b> if you already have an account.
-        <br><b>Register</b> to get started with the workouts. </br>
-    </string>
+    <string name="started_sub_title_login"><b>Login</b> if you already have an account.</string>
+    <string name="started_sub_title_register"><b>Register</b> to get started with the workouts. </string>
     <string name="btn_register">Register</string>
     <string name="btn_login">Login</string>
     <string name="login_title">Login to app</string>
     <string name="login_sub_title">
-        <font color="000000"><b>Login</b></font>
-        if you already have an account.
+        <font color="000000"><b>Login Here</b></font>
+        <br>if you already have an account.</br>
     </string>
     <string name="login_email"> Your email or username</string>
     <string name="login_password"> Your Password </string>
     <string name="forgot_pw">Forgot Password?</string>
-    <string name="No_account">
-        I do not have an account
-        <font color="#FFFFFFFF"><b>Register</b></font>
+    <string name="No_account">I do not have an account<font color="#000000"><b>\nRegister</b></font>
+    </string>
+    <string name="fullname">Your full name</string>
+    <string name="youremail">Your email address</string>
+    <string name="username">Your username</string>
+    <string name="yourpassword">Your password</string>
+    <string name="confirm_pw">Confirm password</string>
+    <string name="register_have_account">I already have an account<font color="000000">\n<b>Login</b></font>
+    </string>
+    <string name="register_title">Create an account</string>
+    <string name="register_sub_title">
+        <b>Register</b> to get started
     </string>
 
     <string name="workouts_arms">Arms</string>
@@ -46,7 +53,7 @@
     <string name="place_holder_time">00:00:00</string>
     <string name="reset">Reset</string>
     <string name="start">Start</string>
-    <string name="stop">Start</string>
+    <string name="stop">Stop</string>
 
     <!--terms and conditions strings-->
     <string name="terms">Terms Of Use</string>

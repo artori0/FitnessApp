@@ -40,25 +40,9 @@
             android:textColor="@color/colorText"
             android:paddingStart="10dp"
             android:paddingBottom="5dp"
-            android:text="@string/body_workout"
+            android:text="@string/legs_workout"
             app:layout_constraintTop_toBottomOf="@+id/appIcon"
             tools:ignore="RtlSymmetry" />
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/WorkoutTitle"
-            android:paddingBottom="10sp">
-            <VideoView
-                android:id="@+id/Video"
-                android:layout_width="match_parent"
-                android:layout_height="210dp"
-                android:clickable="true"
-                android:focusable="true"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:id="@+id/WorkoutRest"
@@ -72,15 +56,34 @@
             tools:layout_editor_absoluteX="0dp" />
 
         <TextView
-            android:id="@+id/WorkoutDescription"
+            android:id="@+id/WorkoutDescription2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingHorizontal="15dp"
-            android:text="@string/BodyWorkoutInstructions"
+            android:paddingBottom="10dp"
             android:textColor="@color/colorText"
             android:textSize="20sp"
-            app:layout_constraintTop_toBottomOf="@+id/WorkoutRest"
-            android:paddingBottom="10dp" />
+            app:layout_constraintTop_toBottomOf="@+id/WorkoutDescription1"/>
+
+        <TextView
+            android:id="@+id/WorkoutDescription3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/WorkoutDescription2"/>
+
+        <TextView
+            android:id="@+id/WorkoutDescription4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/WorkoutDescription3"/>
 
     </LinearLayout>
 

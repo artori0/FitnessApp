@@ -1,29 +1,26 @@
 package com.example.fitnessapp.android
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 
-class login : AppCompatActivity() {
+class mainpage : AppCompatActivity() {
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_mainpage)
 
-        val register = findViewById<TextView>(R.id.tv_no_account)
+        val register = findViewById<Button>(R.id.btn_register)
         register.setOnClickListener{
             startActivity(Intent(this,com.example.fitnessapp.android.register::class.java))
         }
 
         val login = findViewById<Button>(R.id.btn_login)
         login.setOnClickListener{
-            startActivity(Intent(this,MainActivity::class.java))
-        }
-
-        val forgotPassword = findViewById<TextView>(R.id.tv_forgot_pw)
-        forgotPassword.setOnClickListener {
-            startActivity(Intent(this, resetPasswordLogin::class.java))
+            startActivity(Intent(this,com.example.fitnessapp.android.login::class.java))
         }
     }
 }
