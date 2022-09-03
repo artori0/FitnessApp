@@ -40,20 +40,20 @@ class workoutBody : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val pullup = findViewById<TextView>(R.id.WorkoutDescription3)
-        pullup.text = getString(R.string.workout_pullups) +
-                System.getProperty("line.separator") +
-                getString(R.string._3_sets_10_reps)
-
-        val shoulderPress = findViewById<TextView>(R.id.WorkoutDescription4)
+        val shoulderPress = findViewById<TextView>(R.id.WorkoutDescription3)
         shoulderPress.text = getString(R.string.workout_shoulderPress) +
                 System.getProperty("line.separator") +
                 getString(R.string._3_sets_8_reps) +
                 " " +
                 getString(R.string.double_dropset)
         shoulderPress.setOnClickListener {
-            val intent = Intent(this, benchpress::class.java)
+            val intent = Intent(this, dumbbellPress::class.java)
             startActivity(intent)
+
+            val pullup = findViewById<TextView>(R.id.WorkoutDescription4)
+            pullup.text = getString(R.string.workout_pullups) +
+                    System.getProperty("line.separator") +
+                    getString(R.string._3_sets_10_reps)
         }
 
     }

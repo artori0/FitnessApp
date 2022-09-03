@@ -5,14 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".hipThrusts"
+    tools:context=".dumbbellPress"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/WorkoutTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/workout_hipthrusts"
+        android:text="@string/workout_shoulderPress"
         android:textColor="@color/colorText"
         android:paddingHorizontal="10dp"
         android:paddingVertical="15dp"
@@ -43,7 +43,7 @@
         android:id="@+id/WorkoutReps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/_4_sets_12_reps"
+        android:text="@string/_3_sets_8_reps"
         android:textColor="@color/colorText"
         android:paddingHorizontal="10dp"
         android:paddingTop="10dp"

@@ -95,23 +95,24 @@
     <string name="workouts_rest" tools:ignore="TypographyDashes">*Rest between each set for 2-3 minutes</string>
 
     <string name="arms_workout">Arms Workouts</string>
-    <string name="ArmsWorkoutInstructions">
-        Biceps Curl:
-        4 sets, 10 reps (Double dropset after the final set.) \n\n
-        EZ-Bar Preacher Curl:
-        4 sets, 12 reps (Pause at the top of each rep for 2 sec.) \n\n
-        Hammer Curl:
-        4 sets, 10 reps</string>
 
+    <string name="workout_bicep"><u>Biceps Curl</u></string>
+    _4_sets_10_reps (Double dropset after the final set.)
+
+    <string name="workout_preacherCurl"><u>EZ-Bar Preacher Curl</u></string>
+    _4_sets_12_reps
+    <string name="workout_pause">(Pause at the top of each rep for 2 sec.)</string>
+
+    <string name="workout_hammerCurl"><u>Hammer Curl</u></string>
+    _4_sets_10_reps
 
     <string name="shoulders_workout">Shoulders Workouts</string>
-    <string name="ShouldersWorkoutInstructions" tools:ignore="TypographyDashes">
-        Dumbbell Shoulder Press \n
-        3 sets 6-8 reps (Double dropset after the final set.) \n\n
-        Side Lateral Raise \n
-        3 sets 6-8 reps \n\n
-        Front Dumbbell Raise \n
-        3 sets 8-10 reps </string>
+
+    <string name="workout_SideDumbbellRaise"><u>Side Lateral Raise</u></string>
+    _3_sets_8_reps
+
+    <string name="workout_frontDumbbellRaise"><u>Front Dumbbell Raise</u></string>
+    _3_sets_10_reps
 
     <string name="workout_shoulderPress"><u>Dumbbell Shoulder Press</u></string>
     <string name="_3_sets_8_reps">3 sets 6–8 reps</string>
@@ -142,13 +143,15 @@
     <string name="workout_pullups"><u>Pull-Ups</u></string>
 
     <string name="back_workout">Back Workouts</string>
-    <string name="BackWorkoutInstructions">
-        Bent over Barbell Row
-        \n5 sets 12,10,8,6,4 \n\n
-        Dumbbell Row
-        \n6 sets 12 reps \n\n
-        Reverse Grip Lat Pulldown
-        \n4 sets 10-12 reps </string>
+
+    <string name="workout_barbellRow"><u>Bent over Barbell Row</u></string>
+    <string name="_5_sets_12_reps">5 sets of 12,10,8,6,4 reps</string>
+
+    <string name="workout_dumbbellRow"><u>Dumbbell Row</u></string>
+    <string name="_6_sets_12_reps">6 sets 12 reps</string>
+
+    <string name="workout_pushups"><u>Push-Ups</u></string>
+    _3_sets_10_reps
 
 
     <string name="legs_workout">Legs Workouts</string>
