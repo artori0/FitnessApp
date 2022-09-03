@@ -48,7 +48,7 @@
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_legs"
                 android:selectAllOnFocus="false"
-                android:background="@drawable/armbanner"/>
+                android:background="@drawable/legsbanner"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -64,7 +64,7 @@
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_body"
                 android:selectAllOnFocus="false"
-                android:background="@drawable/armbanner" />
+                android:background="@drawable/bodybanner" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -80,7 +80,7 @@
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_back"
                 android:selectAllOnFocus="false"
-                android:background="@drawable/armbanner" />
+                android:background="@drawable/backbanner" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -95,7 +95,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_shoulder"
-                android:background="@drawable/armbanner" />
+                android:background="@drawable/shouldersbanner" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -111,7 +111,7 @@
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_abs"
                 android:selectAllOnFocus="false"
-                android:background="@drawable/armbanner"/>
+                android:background="@drawable/absbanner"/>
 
         </LinearLayout>
 </androidx.core.widget.NestedScrollView>
