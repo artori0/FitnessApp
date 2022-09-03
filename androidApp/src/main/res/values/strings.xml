@@ -135,15 +135,8 @@
         Plank 1 min</string>
 
     <string name="body_workout">Body Workouts</string>
-    <string name="BodyWorkoutInstructions">
-        Squats \n
-        3 sets of 8-10 reps \n\n
-        Pull-Ups \n
-        3 sets of 6-10 reps \n\n
-        Dumbbell Shoulder Press \n
-        3 sets 6-8 reps (Double dropset after the final set.)</string>
 
-    <string name="workout_benchpress"><u>Squats</u></string>
+    <string name="workout_benchpress"><u>Bench Press</u></string>
     <string name="_3_sets_10_reps">3 sets of 8–10 reps</string>
 
     <string name="workout_pullups"><u>Pull-Ups</u></string>
@@ -155,9 +148,7 @@
         Dumbbell Row
         \n6 sets 12 reps \n\n
         Reverse Grip Lat Pulldown
-        \n4 sets 10-12 reps \n\n
-        Incline Bench Dumbbell Row
-        \n3 sets 8-12 reps</string>
+        \n4 sets 10-12 reps </string>
 
 
     <string name="legs_workout">Legs Workouts</string>
