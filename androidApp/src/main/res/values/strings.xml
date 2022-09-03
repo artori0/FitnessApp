@@ -10,6 +10,26 @@
 
     <string name="app_icon">App Icon</string>
 
+    <string name="welcome">Welcome to Everyday Fitness</string>
+    <string name="started_sub_title">
+        <b>Login</b> if you already have an account.
+        <br><b>Register</b> to get started with the workouts. </br>
+    </string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="login_title">Login to app</string>
+    <string name="login_sub_title">
+        <font color="000000"><b>Login</b></font>
+        if you already have an account.
+    </string>
+    <string name="login_email"> Your email or username</string>
+    <string name="login_password"> Your Password </string>
+    <string name="forgot_pw">Forgot Password?</string>
+    <string name="No_account">
+        I do not have an account
+        <font color="#FFFFFFFF"><b>Register</b></font>
+    </string>
+
     <string name="workouts_arms">Arms</string>
     <string name="workouts_legs">Legs</string>
     <string name="workouts_back">Back</string>
@@ -68,28 +88,86 @@
     <string name="workouts_rest" tools:ignore="TypographyDashes">*Rest between each set for 2-3 minutes</string>
 
     <string name="arms_workout">Arms Workouts</string>
-    <string name="ArmsWorkoutInstructions">Standing Barbell Biceps Curl: 4 sets, 10 reps (Double dropset after the final set.) \n\n Standing Alternating Biceps Curl: 4 sets, 12 reps (Single dropset after the final set.) \n\nEZ-Bar Preacher Curl: 4 sets, 12 reps (Pause at the top of each rep for 2 sec.) \n\nIncline Biceps Curl: 4 sets, 12 reps (Double dropset after the final set.) \n\nHammer Curl: 4 sets, 10 reps \n\nHigh Cable Curl: 6 sets, 15 reps</string>
+    <string name="ArmsWorkoutInstructions">
+        Biceps Curl:
+        4 sets, 10 reps (Double dropset after the final set.) \n\n
+        EZ-Bar Preacher Curl:
+        4 sets, 12 reps (Pause at the top of each rep for 2 sec.) \n\n
+        Hammer Curl:
+        4 sets, 10 reps</string>
 
 
     <string name="shoulders_workout">Shoulders Workouts</string>
-    <string name="ShouldersWorkoutInstructions" tools:ignore="TypographyDashes">Dumbbell Shoulder Press \n3 sets 6-8 reps \n1 drop set to failure \n\nSide Lateral Raise \n3 sets 6-8 reps \n\nFront Dumbbell Raise \n3 sets 8-10 reps \n\nBent Over Rear Delt Raise \n3 sets 8-10 reps \n\nSeated Dumbbell Press \n4 set 12/10/10/8 - last set 6 triple drop set \n\nUpright Rows \n4 sets 12 reps</string>
+    <string name="ShouldersWorkoutInstructions" tools:ignore="TypographyDashes">
+        Dumbbell Shoulder Press \n
+        3 sets 6-8 reps (Double dropset after the final set.) \n\n
+        Side Lateral Raise \n
+        3 sets 6-8 reps \n\n
+        Front Dumbbell Raise \n
+        3 sets 8-10 reps </string>
 
+    <string name="workout_shoulderPress"><u>Dumbbell Shoulder Press</u></string>
+    <string name="_3_sets_8_reps">3 sets 6–8 reps</string>
+    <string name="double_dropset">(Double dropset after the final set.)</string>
 
     <string name="abs_workout">Abs Workout</string>
-    <string name="AbsWorkoutInstructions">Leg raise 1 min \nRest 30 sec \n\nCrunches 1 min \nRest 30 sec \n\nSide Plank each 30 sec \nTotal: 1 min \nRest 30 sec \n\nHeel Tap 1 min \nRest 30 sec \n\nRussian twist 1 min \nRest 30 sec \n\nBicycle Crunch 1 min \nRest 30 sec \n\nPlank 1 min</string>
+    <string name="AbsWorkoutInstructions">
+        Leg raise 1 min \n
+        Rest 30 sec \n\n
+        Crunches 1 min\n
+        Rest 30 sec \n\n
+        Side Plank each 30 sec \n
+        Total: 1 min\n
+        Rest 30 sec \n\n
+        Heel Tap 1 min\n
+        Rest 30 sec \n\n
+        Russian twist 1 min\n
+        Rest 30 sec \n\n
+        Bicycle Crunch 1 min\n
+        Rest 30 sec \n\n
+        Plank 1 min</string>
 
     <string name="body_workout">Body Workouts</string>
-    <string name="BodyWorkoutInstructions" tools:ignore="TypographyDashes">Barbell Bench Press \n3 sets of 8-10 reps \n\nBarbell Back Squat \n3 sets of 8-10 reps \n\nPull-Ups \n3 sets of 6-10 reps \n\nLying Hamstring Dumbbell Curls \n3 sets of 10-15 reps \n\nStanding Overhead Press \n3 sets of 6-10 reps</string>
+    <string name="BodyWorkoutInstructions">
+        Squats \n
+        3 sets of 8-10 reps \n\n
+        Pull-Ups \n
+        3 sets of 6-10 reps \n\n
+        Dumbbell Shoulder Press \n
+        3 sets 6-8 reps (Double dropset after the final set.)</string>
+
+    <string name="workout_benchpress"><u>Squats</u></string>
+    <string name="_3_sets_10_reps">3 sets of 8–10 reps</string>
+
+    <string name="workout_pullups"><u>Pull-Ups</u></string>
 
     <string name="back_workout">Back Workouts</string>
-    <string name="BackWorkoutInstructions" tools:ignore="TypographyDashes">Bent over Barbell Row \n5 sets 12,10,8,6,4 \n\nDumbbell Row \n6 sets 12 reps \n3 normal, 3 swinging \n\nReverse Grip Lat Pulldown \n4 sets 10-12 reps \n\nClose Grip Cable Row \n4 sets 10-12 reps \n\nIncline Bench Dumbbell Row \n3 sets 8-12 reps</string>
+    <string name="BackWorkoutInstructions">
+        Bent over Barbell Row
+        \n5 sets 12,10,8,6,4 \n\n
+        Dumbbell Row
+        \n6 sets 12 reps \n\n
+        Reverse Grip Lat Pulldown
+        \n4 sets 10-12 reps \n\n
+        Incline Bench Dumbbell Row
+        \n3 sets 8-12 reps</string>
 
 
     <string name="legs_workout">Legs Workouts</string>
-    <string name="LegsWorkoutInstructions1" tools:ignore="TypographyDashes">Back Squats OR Front Squats \n3-4 sets of 6-10 reps</string>
-    <string name="LegsWorkoutInstructions2" tools:ignore="TypographyDashes">Hip Thrusts \n3-4 sets of 12-15 reps</string>
-    <string name="LegsWorkoutInstructions3" tools:ignore="TypographyDashes">Bulgarian Split Squats \n4 sets of 8-12 reps (each side)</string>
-    <string name="LegsWorkoutInstructions4" tools:ignore="TypographyDashes">Standing Single Leg Calf Raise \n2-4 sets of 6-10 reps</string>
-    <string name="LegsWorkoutInstructions5" tools:ignore="TypographyDashes">Seated Calf Raise \n2-4 sets of 10-15 reps</string>
+
+    <string name="workout_squats"><u>Squats</u></string>
+    <string name="_4_sets_10_reps">3–4 sets of 6–10 reps</string>
+
+    <string name="workout_hipthrusts"><u>Hip Thrusts</u></string>
+    <string name="_4_sets_15_reps">3–4 sets of 12–15 reps</string>
+
+    <string name="workout_splitSquats"><u>Bulgarian Split Squats</u></string>
+    <string name="_4_sets_12_reps">4 sets of 8–12 reps</string>
+    <string name="each_side">(each side)</string>
+
+    <string name="workout_calfRaise"><u>Standing Single Leg Calf Raise</u></string>
+    <string name="_4_sets_6_reps">2–4 sets of 6–10 reps</string>
+
+    <string name="workout_seatedCalfRaise"><u>Seated Calf Raise</u></string>
 
 </resources>

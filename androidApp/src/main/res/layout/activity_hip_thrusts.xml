@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".squats"
-    android:orientation="vertical">
+    tools:context=".hipThrusts">
 
     <TextView
         android:id="@+id/WorkoutTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/workout_squats"
+        android:text="@string/workout_hipthrusts"
         android:textColor="@color/colorText"
         android:paddingHorizontal="10dp"
         android:paddingVertical="15dp"
@@ -43,7 +41,7 @@
         android:id="@+id/WorkoutReps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/_4_sets_10_reps"
+        android:text="@string/_4_sets_12_reps"
         android:textColor="@color/colorText"
         android:paddingHorizontal="10dp"
         android:paddingTop="10dp"
@@ -60,4 +58,4 @@
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@+id/WorkoutReps" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

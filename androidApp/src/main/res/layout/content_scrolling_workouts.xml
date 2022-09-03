@@ -32,7 +32,8 @@
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_arms"
                 android:selectAllOnFocus="false"
-                android:background="@drawable/armbanner" />
+                android:background="@drawable/armbanner"
+                android:paddingBottom="10sp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -48,7 +49,8 @@
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_legs"
                 android:selectAllOnFocus="false"
-                android:background="@drawable/legsbanner"/>
+                android:background="@drawable/legsbanner"
+                android:paddingBottom="10sp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -64,7 +66,8 @@
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_body"
                 android:selectAllOnFocus="false"
-                android:background="@drawable/bodybanner" />
+                android:background="@drawable/bodybanner"
+                android:paddingBottom="10sp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -80,7 +83,8 @@
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_back"
                 android:selectAllOnFocus="false"
-                android:background="@drawable/backbanner" />
+                android:background="@drawable/backbanner"
+                android:paddingBottom="10sp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -95,7 +99,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_shoulder"
-                android:background="@drawable/shouldersbanner" />
+                android:background="@drawable/shouldersbanner"
+                android:paddingBottom="10sp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -111,7 +116,8 @@
                 android:layout_height="150dp"
                 android:contentDescription="@string/workouts_abs"
                 android:selectAllOnFocus="false"
-                android:background="@drawable/absbanner"/>
+                android:background="@drawable/absbanner"
+                android:paddingBottom="10sp"/>
 
         </LinearLayout>
 </androidx.core.widget.NestedScrollView>
