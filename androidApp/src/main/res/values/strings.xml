@@ -163,5 +163,9 @@
     <string name="_4_sets_6_reps">2–4 sets of 6–10 reps</string>
 
     <string name="workout_seatedCalfRaise"><u>Seated Calf Raise</u></string>
+    <string name="calorie_breakfast">Breakfast</string>
+    <string name="calorie_lunch">Lunch</string>
+    <string name="calorie_dinner">Dinner</string>
+    <string name="calorie_other_meals">Other Meals</string>
 
 </resources>

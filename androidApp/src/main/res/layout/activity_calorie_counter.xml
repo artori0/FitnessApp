@@ -28,10 +28,28 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
+        android:id="@+id/breakfast_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calorie_breakfast"/>
+
+    <Button
         android:id="@+id/lunch_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Lunch"/>
+        android:text="@string/calorie_lunch"/>
+
+    <Button
+        android:id="@+id/dinner_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calorie_dinner"/>
+
+    <Button
+        android:id="@+id/others_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calorie_other_meals"/>
 
     <CalendarView
         android:id="@+id/calendarView"
