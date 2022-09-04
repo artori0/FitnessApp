@@ -15,6 +15,30 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".stepCounter"
+            android:exported="false" />
+        <activity
+            android:name=".dumbbellRow"
+            android:exported="false" />
+        <activity
+            android:name=".barbellRow"
+            android:exported="false" />
+        <activity
+            android:name=".frontRaise"
+            android:exported="false" />
+        <activity
+            android:name=".sideRaise"
+            android:exported="false" />
+        <activity
+            android:name=".hammerCurls"
+            android:exported="false" />
+        <activity
+            android:name=".preacherCurls"
+            android:exported="false" />
+        <activity
+            android:name=".bicepCurls"
+            android:exported="false" />
+        <activity
             android:name=".dumbbellPress"
             android:exported="false" />
         <activity

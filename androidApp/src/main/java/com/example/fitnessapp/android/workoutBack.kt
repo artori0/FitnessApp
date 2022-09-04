@@ -1,14 +1,17 @@
 package com.example.fitnessapp.android
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.MediaController
+import android.widget.TextView
 import android.widget.VideoView
 
 class workoutBack : AppCompatActivity() {
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_workout_back)
@@ -19,17 +22,27 @@ class workoutBack : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val video = findViewById<VideoView>(R.id.Video)
-        val mediaController = MediaController(this)
-        mediaController.setAnchorView(video)
-        val uri: Uri =
-            Uri.parse("android.resource://com.example.fitnessapp.android/" + R.raw.benchpress)
-        video.setMediaController(mediaController)
-        video.setVideoURI(uri)
-
-        video.setOnClickListener {
-            video.requestFocus()
-            video.start()
+        val hipThrusts = findViewById<TextView>(R.id.WorkoutDescription1)
+        hipThrusts.text = getString(R.string.workout_barbellRow) +
+                System.getProperty("line.separator") +
+                getString(R.string._5_sets_12_reps)
+        hipThrusts.setOnClickListener {
+            val intent = Intent(this, barbellRow::class.java)
+            startActivity(intent)
         }
+
+        val dumbbellRows = findViewById<TextView>(R.id.WorkoutDescription2)
+        dumbbellRows.text = getString(R.string.workout_dumbbellRow) +
+                System.getProperty("line.separator") +
+                getString(R.string._6_sets_12_reps)
+        dumbbellRows.setOnClickListener {
+            val intent = Intent(this, dumbbellRow::class.java)
+            startActivity(intent)
+        }
+
+        val pushup = findViewById<TextView>(R.id.WorkoutDescription3)
+        pushup.text = getString(R.string.workout_pushups) +
+                System.getProperty("line.separator") +
+                getString(R.string._3_sets_10_reps)
     }
 }

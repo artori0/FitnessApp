@@ -49,12 +49,17 @@ class workoutBody : AppCompatActivity() {
         shoulderPress.setOnClickListener {
             val intent = Intent(this, dumbbellPress::class.java)
             startActivity(intent)
-
-            val pullup = findViewById<TextView>(R.id.WorkoutDescription4)
-            pullup.text = getString(R.string.workout_pullups) +
-                    System.getProperty("line.separator") +
-                    getString(R.string._3_sets_10_reps)
         }
+
+        val pullup = findViewById<TextView>(R.id.WorkoutDescription4)
+        pullup.text = getString(R.string.workout_pullups) +
+                System.getProperty("line.separator") +
+                getString(R.string._3_sets_10_reps)
+
+        val pushup = findViewById<TextView>(R.id.WorkoutDescription5)
+        pushup.text = getString(R.string.workout_pushups) +
+                System.getProperty("line.separator") +
+                getString(R.string._3_sets_10_reps)
 
     }
 }

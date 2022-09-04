@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".preacherCurls"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/WorkoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/workout_preacherCurl"
+        android:textColor="@color/colorText"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="15dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/WorkoutTitle"
+        android:paddingBottom="10sp">
+        <VideoView
+            android:id="@+id/Video"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/WorkoutReps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:paddingHorizontal="10dp"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+    <TextView
+        android:id="@+id/WorkoutRest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingHorizontal="15dp"
+        android:text="@string/workouts_rest"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/WorkoutReps" />
+
+</LinearLayout>

@@ -20,8 +20,8 @@
         <font color="000000"><b>Login Here</b></font>
         <br>if you already have an account.</br>
     </string>
-    <string name="login_email"> Your email or username</string>
-    <string name="login_password"> Your Password </string>
+    <string name="login_email">Your email or username</string>
+    <string name="login_password">Your Password </string>
     <string name="forgot_pw">Forgot Password?</string>
     <string name="No_account">I do not have an account<font color="#000000"><b>\nRegister</b></font>
     </string>
@@ -97,22 +97,17 @@
     <string name="arms_workout">Arms Workouts</string>
 
     <string name="workout_bicep"><u>Biceps Curl</u></string>
-    _4_sets_10_reps (Double dropset after the final set.)
 
     <string name="workout_preacherCurl"><u>EZ-Bar Preacher Curl</u></string>
-    _4_sets_12_reps
     <string name="workout_pause">(Pause at the top of each rep for 2 sec.)</string>
 
     <string name="workout_hammerCurl"><u>Hammer Curl</u></string>
-    _4_sets_10_reps
 
     <string name="shoulders_workout">Shoulders Workouts</string>
 
-    <string name="workout_SideDumbbellRaise"><u>Side Lateral Raise</u></string>
-    _3_sets_8_reps
+    <string name="workout_sideDumbbellRaise"><u>Side Lateral Raise</u></string>
 
     <string name="workout_frontDumbbellRaise"><u>Front Dumbbell Raise</u></string>
-    _3_sets_10_reps
 
     <string name="workout_shoulderPress"><u>Dumbbell Shoulder Press</u></string>
     <string name="_3_sets_8_reps">3 sets 6–8 reps</string>
@@ -151,8 +146,6 @@
     <string name="_6_sets_12_reps">6 sets 12 reps</string>
 
     <string name="workout_pushups"><u>Push-Ups</u></string>
-    _3_sets_10_reps
-
 
     <string name="legs_workout">Legs Workouts</string>
 

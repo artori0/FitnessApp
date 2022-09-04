@@ -1,5 +1,6 @@
 package com.example.fitnessapp.android
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,9 +9,11 @@ import android.widget.MediaController
 import android.net.Uri
 import android.net.Uri.*
 import android.widget.ImageView
+import android.widget.TextView
 
 class workoutArms : AppCompatActivity() {
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_workout_arms)
@@ -21,17 +24,37 @@ class workoutArms : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val video = findViewById<VideoView>(R.id.Video)
-        val mediaController = MediaController(this)
-        mediaController.setAnchorView(video)
-        val uri: Uri = parse("android.resource://com.example.fitnessapp.android/" + R.raw.benchpress)
-        video.setMediaController(mediaController)
-        video.setVideoURI(uri)
-
-        video.setOnClickListener {
-            video.requestFocus()
-            video.start()
+        val bicep = findViewById<TextView>(R.id.WorkoutDescription1)
+        bicep.text = getString(R.string.workout_bicep) +
+                System.getProperty("line.separator") +
+                getString(R.string._4_sets_10_reps) +
+                " " +
+                getString(R.string.double_dropset)
+        bicep.setOnClickListener {
+            val intent = Intent(this, bicepCurls::class.java)
+            startActivity(intent)
         }
+
+        val preacher = findViewById<TextView>(R.id.WorkoutDescription2)
+        preacher.text = getString(R.string.workout_preacherCurl) +
+                System.getProperty("line.separator") +
+                getString(R.string._4_sets_12_reps) +
+                " " +
+                getString(R.string.workout_pause)
+        preacher.setOnClickListener {
+            val intent = Intent(this, preacherCurls::class.java)
+            startActivity(intent)
+        }
+
+        val hammer = findViewById<TextView>(R.id.WorkoutDescription3)
+        hammer.text = getString(R.string.workout_hammerCurl) +
+                System.getProperty("line.separator") +
+                getString(R.string._4_sets_10_reps)
+        hammer.setOnClickListener {
+            val intent = Intent(this, hammerCurls::class.java)
+            startActivity(intent)
+        }
+
     }
 
 }

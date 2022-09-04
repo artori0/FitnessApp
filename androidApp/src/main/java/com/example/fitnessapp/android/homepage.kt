@@ -40,10 +40,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val password = findViewById<Button>(R.id.stepButton)
-        password.setOnClickListener {
-            val intent = Intent(this, changePassword::class.java)
+        val stepCounter = findViewById<Button>(R.id.stepButton)
+        stepCounter.setOnClickListener {
+            val intent = Intent(this, com.example.fitnessapp.android.stepCounter::class.java)
             startActivity(intent)
         }
+
+
     }
 }

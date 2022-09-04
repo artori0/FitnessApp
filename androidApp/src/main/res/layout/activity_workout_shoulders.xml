@@ -5,7 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".workoutShoulders">
+    android:id="@+id/ScrollView"
+    tools:context=".workoutShoulders"
+    android:focusable ="true"
+    android:focusableInTouchMode ="true"
+    android:descendantFocusability="beforeDescendants">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,9 +25,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="108dp"
                 android:layout_marginTop="32dp"
+                android:focusable="true"
                 android:clickable="true"
                 android:contentDescription="@string/app_name"
-                android:focusable="true"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -43,22 +47,6 @@
             app:layout_constraintTop_toBottomOf="@+id/appIcon"
             tools:ignore="RtlSymmetry" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@+id/WorkoutTitle"
-            android:paddingBottom="10sp">
-            <VideoView
-                android:id="@+id/Video"
-                android:layout_width="match_parent"
-                android:layout_height="210dp"
-                android:clickable="true"
-                android:focusable="true"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
         <TextView
             android:id="@+id/WorkoutRest"
             android:layout_width="match_parent"
@@ -71,16 +59,34 @@
             tools:layout_editor_absoluteX="0dp" />
 
         <TextView
-            android:id="@+id/WorkoutDescription"
+            android:id="@+id/WorkoutDescription1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingHorizontal="15dp"
-            android:text="@string/ShouldersWorkoutInstructions"
+            android:paddingBottom="10dp"
             android:textColor="@color/colorText"
             android:textSize="20sp"
-            app:layout_constraintTop_toBottomOf="@+id/WorkoutRest"
-            android:paddingBottom="10dp" />
+            app:layout_constraintTop_toBottomOf="@+id/WorkoutRest"/>
 
+        <TextView
+            android:id="@+id/WorkoutDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/WorkoutDescription1"/>
+
+        <TextView
+            android:id="@+id/WorkoutDescription3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="15dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/WorkoutDescription2"/>
 
     </LinearLayout>
 
