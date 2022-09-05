@@ -1,11 +1,19 @@
 package com.example.fitnessapp.android
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 
 class workoutAbs : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_workout_abs)
+
+        val home = findViewById<ImageView>(R.id.appIcon)
+        home.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

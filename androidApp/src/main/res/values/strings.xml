@@ -167,5 +167,6 @@
     <string name="calorie_lunch">Lunch</string>
     <string name="calorie_dinner">Dinner</string>
     <string name="calorie_other_meals">Other Meals</string>
+    <string name="daily_workout">Daily Workout</string>
 
 </resources>

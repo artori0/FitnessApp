@@ -3,16 +3,14 @@ package com.example.fitnessapp.android
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import org.w3c.dom.Text
 
 class settings : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

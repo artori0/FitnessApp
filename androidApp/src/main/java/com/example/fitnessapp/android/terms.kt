@@ -1,9 +1,9 @@
 package com.example.fitnessapp.android
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 
 class terms : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

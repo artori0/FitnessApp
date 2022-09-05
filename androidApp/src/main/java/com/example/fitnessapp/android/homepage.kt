@@ -1,14 +1,18 @@
 package com.example.fitnessapp.android
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ProgressBar
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
+
+
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_homepage)
 
         val workoutButton = findViewById<Button>(R.id.workoutButton)
         workoutButton.setOnClickListener {
@@ -40,12 +44,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val stepCounter = findViewById<Button>(R.id.stepButton)
-        stepCounter.setOnClickListener {
-            val intent = Intent(this, com.example.fitnessapp.android.stepCounter::class.java)
+        val step = findViewById<Button>(R.id.stepButton)
+        step.setOnClickListener {
+            val intent = Intent(this, stepCounter::class.java)
             startActivity(intent)
         }
 
-
+        val progressbar : ProgressBar = findViewById(R.id.progressBar)
+        progressbar.setOnClickListener {
+            val intent = Intent(this, workoutProgress::class.java)
+            startActivity(intent)
+        }
+        progressbar.progress = 20
     }
 }

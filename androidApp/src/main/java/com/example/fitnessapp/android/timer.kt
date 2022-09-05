@@ -1,11 +1,11 @@
 package com.example.fitnessapp.android
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
-import java.util.*
+import androidx.appcompat.app.AppCompatActivity
 import com.example.fitnessapp.android.databinding.ActivityTimerBinding
+import java.util.*
 
 class timer : AppCompatActivity() {
 

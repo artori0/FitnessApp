@@ -2,11 +2,11 @@ package com.example.fitnessapp.android
 
 import android.annotation.SuppressLint
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.MediaController
 import android.widget.TextView
 import android.widget.VideoView
+import androidx.appcompat.app.AppCompatActivity
 
 class dumbbellPress : AppCompatActivity() {
     @SuppressLint("SetTextI18n")

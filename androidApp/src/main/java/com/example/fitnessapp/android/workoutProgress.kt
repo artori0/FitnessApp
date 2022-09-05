@@ -2,13 +2,16 @@ package com.example.fitnessapp.android
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.CheckBox
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
-class stepCounter : AppCompatActivity() {
+class workoutProgress : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_step_counter)
+        setContentView(R.layout.activity_workout_progress)
 
         val home = findViewById<ImageView>(R.id.appIcon)
         home.setOnClickListener {

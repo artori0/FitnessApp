@@ -2,13 +2,10 @@ package com.example.fitnessapp.android
 
 import android.content.DialogInterface
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
-import android.widget.Button
-import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import com.example.fitnessapp.android.databinding.ActivityChangePasswordBinding
+import androidx.appcompat.app.AppCompatActivity
 import com.example.fitnessapp.android.databinding.ActivityResetPasswordLoginBinding
 
 class resetPasswordLogin : AppCompatActivity() {

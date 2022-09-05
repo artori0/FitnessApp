@@ -1,10 +1,10 @@
 package com.example.fitnessapp.android
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.example.fitnessapp.android.databinding.ActivityChangePasswordBinding
 
 class changePassword : AppCompatActivity() {

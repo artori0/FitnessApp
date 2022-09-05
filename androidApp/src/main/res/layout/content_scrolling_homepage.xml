@@ -6,21 +6,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_homepage">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="140dp">
 
         <ProgressBar
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
-            android:layout_height="87dp"
-            android:layout_marginTop="140dp"
-            android:clickable="true"
-            android:focusable="true" />
+            android:layout_height="90dp"
+            android:paddingHorizontal="20dp"
+            android:max="100" />
 
         <TableLayout
             android:layout_width="match_parent"

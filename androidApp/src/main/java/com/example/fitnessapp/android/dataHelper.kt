@@ -1,7 +1,7 @@
 package com.example.fitnessapp.android
 
-import android.content.SharedPreferences
 import android.content.Context
+import android.content.SharedPreferences
 import java.text.SimpleDateFormat
 import java.util.*
 
