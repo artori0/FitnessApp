@@ -2,7 +2,6 @@ package com.example.fitnessapp.android
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.CheckBox
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
